@@ -1,8 +1,8 @@
-# web-dev-starter
+# Bird Watching Website
 
-This is a starter project for web development with no frameworks and minimal
-dependencies. It is intended to be a starting point for web development projects
-that are written in plain HTML, CSS, and JavaScript.
+This is a project around making a bird watching website look as close
+as possible to an example webpage. All of the HTML elements were given,
+it was up to us to implement the proper CSS rules to design the page.
 
 ## Getting Started
 
@@ -22,8 +22,10 @@ you do not need to setup a local server to run the project.
 
 ## Testing
 
-To run the tests for the project, run the following command:
+There are no formal tests for this project. The best way to determine how
+well this project is put together is to compare the webpage to the sample 
+page given at the following link:
 
-```bash
-npm test
-```
+https://boisestatecanvas.instructure.com/courses/35961/files/18341523/preview
+
+

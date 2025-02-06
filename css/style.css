@@ -1,4 +1,107 @@
-h1{
-  border-color: #d3e644;
-  border-style: dashed;
+html {
+  background-color: lightgrey;
+}
+
+header, main, footer, .header-div {
+  background-color: #54d454;
+}
+
+/* Header */
+nav, div {
+  background-color: lime;
+}
+
+header {
+  display:inline-block;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.header-div {
+  margin: 5px;
+  display: grid;
+  grid-template-columns: 90% 10%;
+}
+
+.header-img {
+  max-width: 100%;
+}
+
+h1 {
+  font-size:xx-large;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  margin-top: 4%;
+}
+
+nav {
+  margin: 5px;
+  display:inline-block;
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0;
+}
+
+li {
+  text-decoration: none;
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Main */
+
+main {
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+h2 {
+  text-align: center;
+}
+
+#main-div {
+  margin: 5px;
+
+}
+
+#main-div p {
+  margin: 10px;
+}
+
+.main-2 {
+  text-align: center;
+  display: grid;
+  
+}
+
+.pic-div {
+  margin: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.main-img {
+  max-width: 100%;
+}
+
+/* Footer */
+
+footer {
+  display: inline-block;
+  width: 100%;
+  margin-top: 5px;
+}
+
+footer p {
+  margin: 25px 10px;
 }
